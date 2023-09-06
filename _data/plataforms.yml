@@ -1,12 +1,12 @@
 #Find your icons from here - https://fontawesome.com/icons?d=gallery&s=brands
 - name: Github
-  link: https://github.com/rollys
+  link: https://github.com/cowienduckie
   icon: fa-github
   visibility: true
 - name: Twitter
   link: https://twitter.com/pwnakil
   icon: fa-twitter
-  visibility: true
+  visibility: false
 - name: Dev
   link: https://dev.to/
   icon: fa-dev
@@ -16,7 +16,7 @@
   icon: fa-stack-overflow
   visibility: false
 - name: Linkedin
-  link: https://www.linkedin.com/in/rollysanchez
+  link: https://www.linkedin.com/in/minhtran2404
   icon: fa-linkedin
   visibility: true
 - name: Medium
@@ -38,4 +38,4 @@
 - name: CTF Time
   link: https://ctftime.org/team/134559
   icon: fa-font-awesome-flag
-  visibility: true
+  visibility: false
