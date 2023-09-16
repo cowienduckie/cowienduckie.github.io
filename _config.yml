@@ -1,22 +1,16 @@
-url: "minhtrandev.com"                                          # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: ""                                                     # the subpath of your site, e.g. /blog
-title: "Home"                                      # the name of your site, e.g. ACME Corp.
-lang: en-EN                                                     # the languaje of your site, e.g. en-EN
-theme_custom: white-grey-pacifico                               # the name of your theme, e.g. gree-white, gray-white, indigo-white, indigo-white-pacifico, etc.
-theme_name_background: false                                    # the name of your background image (keep false value if you don't want background image), e.g. bg
-theme_extension_background: png                                 # the extension name of your background file, e.g. png
-author: Minh Tran                                               # the name of author, show in the home page "Hello, I'm *author*" and seo.
-description: &description Software Engineer, .NET               # description for seo.
+url: "minhtrandev.com"                                          # The base hostname & protocol for your site, e.g. http://example.com
+baseurl: ""                                                     # The subpath of your site, e.g. /blog
+title: "Home"                                                   # The name of your site, e.g. ACME Corp.
+lang: en-EN                                                     # The language of your site, e.g. en-EN
+theme_custom: white-grey-pacifico                               # The name of your theme, e.g. gree-white, gray-white, indigo-white, indigo-white-pacifico, etc.
+theme_name_background: false                                    # The name of your background image (keep false value if you don't want background image), e.g. bg
+theme_extension_background: png                                 # The extension name of your background file, e.g. png
+author: Minh Tran                                               # The name of author, show in the home page "Hello, I'm *author*" and SEO.
+description: &description Software Engineer, .NET               # Description for SEO.
 tagline: *description
-twitter:
-  username: pwnakil                                             # your user of twitter account.
-  card: summary
-title_intro:                                                    # overwrite "Hello, I'm *author*", keep empty for don't overwrite, e.g Rolly Sanchez!.
-skill_separator: "|"                                            # the separator symbol to your skill at home page.
-title_plataforms: Connect with me on                            # keep empty for don't show title on plataforms icon.
-title_subpages: For more contents                                    # keep empty for don't show title on subpages icon.
-forkme: false                                                   # true or false to show or hide forkme button.
-forkme_link:                                                    # link of repository fork.
+title_intro:                                                    # Overwrite "Hello, I'm *author*", keep empty for don't overwrite.
+skill_separator: "|"                                            # The separator symbol to your skill at home page.
+title_platforms: Connect with me on                             # Keep empty for don't show title on platforms icon.
 
 # Build settings
 plugins:

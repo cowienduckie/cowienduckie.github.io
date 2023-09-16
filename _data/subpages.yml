@@ -1,9 +1,0 @@
-#Find your icons from here - https://fontawesome.com/icons
-
-- name: Blog
-  link: https://blog.minhtrandev.com/
-  icon: fa-pencil-alt
-
-- name: Resume
-  link: https://resume.minhtrandev.com/
-  icon: fa-briefcase

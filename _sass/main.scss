@@ -20,12 +20,6 @@ html {
     }
 }
 
-.icons-social {
-    i {
-        font-size: 3em;
-    }
-}
-
 /* Custom Styles */
 
 main {
@@ -36,16 +30,16 @@ main {
     padding: 0 30px;
     text-align: center;
 
-    > .intro {
+    >.intro {
         // font-family: $font--secondary;
         font-size: 3.75em;
         font-weight: 600;
     }
 
-    > .content {
+    >.content {
         margin: 1.5rem 0;
 
-        > .tagline {
+        >.tagline {
             font-size: 1.5rem;
             margin: 1rem 0;
             font-weight: 100;
@@ -53,32 +47,22 @@ main {
     }
 }
 
-.icons-social i {
-    padding: 10px;
-}
-
-.devto {
-    margin-bottom: -0.2rem;
-
-    svg {
-        margin-bottom: -0.2rem;
-        margin-left: 0.675rem;
-        width: 2.65rem;
-        height: 2.65rem;
-    }
-}
-
-.sub-pages {
-    font-size: 1.5rem;
-    margin: 1.5rem 0 0 0;
+.platforms {
+    font-size: 1.2rem;
     font-weight: 100;
+    margin: 1rem 0;
 
-    > .sub-page-link {
+    >.platform-link {
         margin: 0 1rem;
         text-decoration: none;
 
-        i {
-          margin-left: 0.5rem;
+        >.icon-with-name {
+            font-size: 1.5rem;
+            margin-right: 0.3rem;
+        }
+
+        >.icon-without-name {
+            font-size: 2rem;
         }
     }
 }

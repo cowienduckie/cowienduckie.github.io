@@ -7,19 +7,26 @@ layout: default
         {% if site.title_intro %} {{ site.title_intro }} {% else %} Hello, I'm
         {{ site.author }}! {% endif %}
     </div>
+
+    <!-- Skills from index.html file -->
     <div class="content">{{ content }}</div>
-    <div class="icons-social">
-        {% if site.title_plataforms %}
-        <p>{{ site.title_plataforms }}</p>
-        {% endif %} {% for plataform in site.data.plataforms %} {% if
-        plataform.visibility == true %}
+
+    <!-- Platforms -->
+    <p>{{ site.title_platforms }}</p>
+    <div class="platforms">
+        <!-- List -->
+        {% for platform in site.data.platforms %}
         <a
+            class="platform-link"
             target="_blank"
-            href="{{ plataform.link }}"
-            title="{{ plataform.name }}"
+            href="{{ platform.link }}"
+            title="{{ platform.name }}"
         >
-            <i class="fab {{ plataform.icon }}"></i>
+            {% if platform.display_name == true %}
+            <i class="{{ platform.icon }} icon-with-name"></i> {{ platform.name
+            }} {%else%}<i class="{{ platform.icon }} icon-without-name"></i>{%
+            endif %}
         </a>
-        {% endif %}{% else %} The plataforms is empty. {% endfor %}
+        {% endfor %}
     </div>
 </main>

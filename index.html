@@ -3,25 +3,7 @@ layout: home
 title: 'Minh Tran'
 ---
 
-<!-- Skills -->
 {% capture separator %} {{site.skill_separator}} {% endcapture %} {% for skills
 in site.data.skills %}
 <div class="tagline">{{ skills | join: separator }}</div>
 {% else %} The skills is empty. {% endfor %}
-<!-- Subpages Title -->
-{% if site.title_subpages %}
-<p>{{ site.title_subpages }}</p>
-{% endif %}
-<!-- Subpages -->
-<div class="sub-pages">
-    {% for page in site.data.subpages %}
-    <a
-        class="sub-page-link"
-        target="_blank"
-        href="{{ page.link }}"
-        title="{{ page.name }}"
-    >
-        {{ page.name }} <i class="fas {{ page.icon }}"></i>
-    </a>
-    {% else %} The page is empty.{% endfor %}
-</div>
