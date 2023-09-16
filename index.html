@@ -8,9 +8,14 @@ in site.data.skills %}
 <div class="tagline">{{ skills | join: separator }}</div>
 {% else %} The skills is empty. {% endfor %}
 
-<div class="tagline">
+<div class="sub-pages">
     {% for page in site.data.subpages %}
-    <a target="_blank" href="{{ page.link }}" title="{{ page.name }}">
+    <a
+        class="sub-page-link"
+        target="_blank"
+        href="{{ page.link }}"
+        title="{{ page.name }}"
+    >
         {{ page.name }} <i class="fas {{ page.icon }}"></i>
     </a>
     {% else %} The page is empty.{% endfor %}
