@@ -2,21 +2,6 @@
 layout: default
 ---
 
-<header>
-    <div class="sub-pages">
-        {% for page in site.data.subpages %}
-        <a
-            class="sub-page-link"
-            target="_blank"
-            href="{{ page.link }}"
-            title="{{ page.name }}"
-        >
-            {{ page.name }} <i class="fas {{ page.icon }}"></i>
-        </a>
-        {% else %} The page is empty.{% endfor %}
-    </div>
-</header>
-
 <main>
     <div class="intro">
         {% if site.title_intro %} {{ site.title_intro }} {% else %} Hello, I'm
