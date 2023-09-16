@@ -14,6 +14,7 @@ twitter:
 title_intro:                                                    # overwrite "Hello, I'm *author*", keep empty for don't overwrite, e.g Rolly Sanchez!.
 skill_separator: "|"                                            # the separator symbol to your skill at home page.
 title_plataforms: Connect with me on                            # keep empty for don't show title on plataforms icon.
+title_subpages: For more contents                                    # keep empty for don't show title on subpages icon.
 forkme: false                                                   # true or false to show or hide forkme button.
 forkme_link:                                                    # link of repository fork.
 
