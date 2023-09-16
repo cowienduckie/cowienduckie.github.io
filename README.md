@@ -1,6 +1,7 @@
 # Dev Landing Page With Jekyll
 
 > Inspired at [dev-landing-page of Flexdinesh](https://github.com/flexdinesh/dev-landing-page)
+>
 > Forked from [jekyll-dev-landing-page of Rollys](https://github.com/rollys/jekyll-dev-landing-page)
 
 Minimal landing page for developers.
