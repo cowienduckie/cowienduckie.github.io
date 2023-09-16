@@ -7,3 +7,11 @@ title: 'Minh Tran'
 in site.data.skills %}
 <div class="tagline">{{ skills | join: separator }}</div>
 {% else %} The skills is empty. {% endfor %}
+
+<div class="tagline">
+    {% for page in site.data.subpages %}
+    <a target="_blank" href="{{ page.link }}" title="{{ page.name }}">
+        {{ page.name }} <i class="fas {{ plataform.icon }}"></i>
+    </a>
+    {% else %} The page is empty.{% endfor %}
+</div>
