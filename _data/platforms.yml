@@ -1,8 +1,8 @@
 #Find your icons from here - https://fontawesome.com/icons?d=gallery&s=brands
-- name: Blogs
-  link: https://blog.minhtrandev.com/
-  icon: fas fa-pencil-alt
-  display_name: true
+# - name: Blogs
+#   link: https://blog.minhtrandev.com/
+#   icon: fas fa-pencil-alt
+#   display_name: true
 - name: Resume
   link: https://resume.minhtrandev.com/
   icon: fas fa-briefcase
